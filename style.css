@@ -16,10 +16,10 @@ body{
     text-align: center;
 
     min-height: 100vh; /* Makes sure your page is 100% of the view height*/
-  width: 100vw; 
-  display: flex;
-  justify-content: center; /* Aligns horizontally*/
-  align-items: center; /* Aligns vertically */ 
+    width: 100vw; 
+    display: flex;
+    justify-content: center; /* Aligns horizontally*/
+    align-items: center; /* Aligns vertically */ 
 }
 
 .attribution{
