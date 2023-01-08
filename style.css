@@ -10,16 +10,28 @@
 }
 
 body{
-    margin-top: 150px;
+    /* margin-top: 150px; */
     background-color: hsl(212, 45%, 89%);
     font-size: 11px; 
     text-align: center;
+
+    min-height: 100vh; /* Makes sure your page is 100% of the view height*/
+  width: 100vw; 
+  display: flex;
+  justify-content: center; /* Aligns horizontally*/
+  align-items: center; /* Aligns vertically */ 
+}
+
+.attribution{
+    margin-bottom: 8px;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 h1{
     margin-top: 7px;
     font-family: 'Outfit', sans-serif;
-    /* font-size: 15px; */
+    font-size: 15px; 
     margin-bottom: 7px;
 }
 
@@ -39,27 +51,27 @@ h1{
 /* MOBILE ->>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width:  375px) {
     .Container {
-        max-width: 330px;
+        max-width: 450px;
     }
 }
 
 /* DESKTOP ->>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 1440px){
     .Container {
-        max-width: 320px;
+        max-width: 450px;
     }
 
     #imagem img{
         margin-top: 10px;
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         border-radius: 10px;
     }
 }
 
 #imagem img{
     margin-top: 10px;
-    width: 300px;
-    height: 300px;
+    width: 230px;
+    height: 230px;
     border-radius: 10px;
 }
